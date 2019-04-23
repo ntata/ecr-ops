@@ -1,0 +1,10 @@
+services:
+  registry-ops:
+    build: . 
+    environment:
+      AWS_ACCESS_KEY_ID: changeMe
+      AWS_SECRET_ACCESS_KEY: changeMe
+      AWS_DEFAULT_REGION: changeMe
+      REGISTRIES: changeMe
+      DELETE_IMAGES: '0'
+      REGISTRY_OPS_ACCESS_TOKEN: changeMe
